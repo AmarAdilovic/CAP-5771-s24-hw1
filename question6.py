@@ -14,7 +14,7 @@ Question 6:
  Note that x̄ denotes the average value and σx denotes standard deviation of attribute X.
 
  The answer to each subquestion is a dictionary with two keys:
- equal width and equal freq.
+ 'equal_width' and 'equal_freq'.
  The values of each key is a list of two values: a string and an integer.
  The string is either Change or No change.
  The value of the integer is chosen among (1,..., 10), chosen according to the list below:
@@ -30,10 +30,6 @@ Question 6:
     9. No change in the relative ordering of points
     10. The maximum and minimum values of X get swapped after the transformation.
 
-    Subquestions to answer:
-    (a) X -> X - x̄, (i.e., if the attribute values are centered).
-    (b) X -> (X - x̄)/(σx) (i.e., if the attribute values are standardized).
-    (c) X -> exp[(X - x̄)/(σx)] (i.e., if the values are standardized and exponentiated).
 '''
 
 '''
@@ -41,18 +37,21 @@ Question Notes:
 
 '''
 
+# (a) X -> X - x̄, (i.e., if the attribute values are centered).
 def question6_1():
     """
     answer = {
-        'equal_width': ['string', integer],
-        'equal_frequency': ['string', integer]
+        'equal_width': ['Change/No Change', (1, ..., 10)],
+        'equal_frequency': ['Change/No Change', (1, ..., 10)]
     }
     """
     return answer
 
+# (b) X -> (X - x̄)/(σx) (i.e., if the attribute values are standardized).
 def question6_2():
     return answer
 
+# (c) X -> exp[(X - x̄)/(σx)] (i.e., if the values are standardized and exponentiated).
 def question6_3():
     return answer 
 

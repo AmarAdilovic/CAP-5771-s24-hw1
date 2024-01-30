@@ -55,3 +55,4 @@ if __name__ == "__main__":
             print(f"An error occurred: {e}")
     
     print(f"Answered Questions: {total_answers} / {total_functions}")
+    print(f"Percentage Complete: {round(((total_answers / total_functions) * 100), 2)}% ")
