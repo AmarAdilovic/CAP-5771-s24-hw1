@@ -92,8 +92,8 @@ def question6_2():
     # { -1.37, -0.88, -0.81 }, { -0.18, -0.11, 0.10, 0.17, 0.87 }, { 2.20 }
 
     return {
-        'equal_width': ['No Change', 7],
-        'equal_frequency': ['No Change', 7]
+        'equal_width': ['Change', 7],
+        'equal_frequency': ['Change', 7]
     }
 
 # (c) X -> exp[(X - x̄)/(σx)] (i.e., if the values are standardized and exponentiated).
