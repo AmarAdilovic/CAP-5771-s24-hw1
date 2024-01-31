@@ -41,7 +41,7 @@ def question9_3():
 # at time t1 and(294 West, 125 North) at another time t2 .
 # Note: wemayuse+/- to indicateEast/West orNorth/Southdirectionswhencomputingthesimilarityordistance measures.
 def question9_4():
-    return "Euclidean"  
+    return "Cosine Similarity"  
 
 # (e) Whichmeasure,Euclideandistanceor cosine similarity, ismostap
 # propriatetocomparethesimilarityof itemsboughtbycustomersata
