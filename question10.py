@@ -40,7 +40,7 @@ def question10_6():
 
 # (g) If vectors of counts have a cosine measure of 1, the objects are identical. Explain.
 def question10_7():
-    return False
+    return True
 
 #  (h) Discrete variables cannot be ratio.
 def question10_8():
