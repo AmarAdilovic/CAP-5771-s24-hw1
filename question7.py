@@ -25,7 +25,7 @@ def question7_2():
     """
     answer = 'string'
     """
-    return "non-decreasing"
+    return "non-increasing"
 
 def question7_3():
     """
